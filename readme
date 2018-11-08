@@ -1,0 +1,10 @@
+两种使用格式：
+
+vip.exe -u url
+或者python vip.py -u url
+其中 url为爱奇艺的vip电影观看网址，其余付费网址未测试
+
+vip.exe -u url -t 20 -c tmp123
+或者python vip.py -u url -t 20 -c tmp123
+其中 -t后面参数为线程数，默认20，作者未设置更改，所以无用；-c 后面参数为保存目录，可更改，
+每次运行程序都会递归删除tmp123文件夹，注意使用，及时copy自己已经下载的视频
